@@ -6,6 +6,9 @@ This activity is your first chance to practice AI-assisted debugging on a codeba
 
 You do not need to understand everything at once. Approach the app as a curious investigator, work with an AI assistant to explain what you find, and make targeted improvements.
 
+TF Task:
+In this task, the core concept that students would need to understand is the difference between UI behavior we see on the surface and the logic that produces it. In functions related to classification and statistics, this shows up more. Students struggle more with tracing behavior that's unexpected back to a certain line of code, especially when the app runs without crashing but still gives back incorrect data/results. In this way, AI was helpful in showing what a specific function would do  and also identifies mismatches between different logic. But on the flip side, AI could mislead when it suggested large-scale refactors or fixes that combined structural changes with logic changes, when in refactoring all we wanted to do was make it more readable. In order to guide a student without directly giving the answer, I would ask them to show or talk through exactly what they expected to happen and what happened in reality. I would also ask them to point out what line of code controls that behavior before asking AI to enhance it.
+
 ---
 
 ## How the code is organized
